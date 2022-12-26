@@ -4,6 +4,6 @@ export default defineNuxtConfig({
         '/spa': { ssr: false },
         '/static': { static: true },
         '/swr': { swr: true },
-        '/api/**': { cors: true }
+        '/api/*': { cors: true }
     }
 })
